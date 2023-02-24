@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+}
+.nav {
+  background-color: black;
+  padding: 5px;
+}
+.nav .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav .container .left a {
+  text-decoration: none;
+  color: rgb(202, 198, 198);
+}
+.nav .container .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav .container .right a {
+  text-decoration: none;
+  color: rgb(202, 198, 198);
+}
+
+.nav .container .left a:active {
+  color: rgb(94, 173, 173);
+}
+.nav .container .right a:hover {
+  color: aqua;
+}
+.nav .container .left a:hover {
+  color: aqua;
+}
+.nav .container .right a:active {
+  color: rgb(94, 173, 173);
+}
+.nav .container .right a {
+  color: rgb(207, 205, 205);
+}
+.nav .container .right .s button {
+  padding: 2px;
+  border: none;
+  color: rgb(2, 0, 0);
+  background-color: rgb(6, 142, 85);
+}
+.nav .container .right .s button:nth-child(2) {
+  padding: 2px;
+  border: none;
+  color: rgb(214, 205, 205);
+  background-color: rgba(24, 108, 168, 0.827);
+}
+
+/* ////////////////////////////////////////////////////////////// */
+.box {
+  width: 100%;
+  padding: 100px 5px;
+  background: rgb(0, 0, 0, 0.7) url(../img/photo_2023-02-06_20-05-05.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.box .container .center {
+  text-align: center;
+  color: rgb(189, 189, 189);
+  padding: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+/* =========---------================== */
+.card {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.card .container h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.card .container .modalka {
+  margin-top: 20px;
+
+  width: 100%;
+  height: auto;
+  background-color: rgba(46, 45, 45, 0.397);
+  padding: 5px;
+}
+.card .container .modalka .quti img {
+  width: 350px;
+  height: 300px;
+}
+/* cards start */
+.cards {
+  width: 100%;
+  background-color: black;
+}
+.cards .container .boxses img {
+  width: 100%;
+  height: 80vh;
+}
+.cards .container .boxses {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(51, 131, 131);
+  text-align: center;
+  line-height: 30px;
+}
+.cards .container .boxses button {
+  width: 200px;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  background-color: rgb(0, 102, 255);
+  border-radius: 10px;
+  border: none;
+}
+/* cards end */
+.three {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 30px 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}
+.three .container .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+.three .container .bottom .sas img {
+  width: 300px;
+  height: 300px;
+}
+.three .container .bottom .sas .sa {
+  width: 300px;
+  padding: 10px 10px;
+  background: linear-gradient(20deg, gold, black, gold);
+  font-size: 10px;
+  line-height: 15px;
+  color: rgb(207, 195, 195);
+}
+/* forro */
+.forro {
+  width: 100%;
+  background-color: black;
+}
+.forro .container {
+  padding: 50px;
+  background: linear-gradient(20deg, rgb(2, 101, 2), black, rgb(3, 83, 3));
+}
+.forro .mom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.forro .mom {
+  text-align: center;
+  color: rgb(202, 191, 191);
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+.forro .mom img {
+  display: flex;
+  width: 400px;
+  border-radius: 800px;
+}
+/* ///////////// */
+/* .icon2 {
+  display: block;
+}
+.nav .container .right {
+  display: ock;
+}
+
+.active {
+  display: block;
+}
+.active2 {
+  display: none;
+} */
